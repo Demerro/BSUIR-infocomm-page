@@ -1,1 +1,131 @@
+body{
+    
+}
+.block_coding {
+    margin: 20px;
+    border: 1px solid #d9dde2;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #d9dde2;
+    text-align: center;
+    text-decoration: none;
+
+   
+}
+body a {
+    color: black;
+    text-decoration: none;
+    -webkit-transition: 0.8s ease;
+
+
+}
+.block_coding img {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    align-items: center;
+}
+.block_coding .name {
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    
+}
+.block_server {
+    margin: 20px;
+    border: 1px solid #d9dde2;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #d9dde2;
+    text-align: center;
+   
+}
+
+.block_server img {
+    margin-top: 14px;
+width: 160px;
+text-align: center;
+margin-left: 18px;
+}
+.block_server .name {
+    font-size: 20px;
+    
+}
+.block_analys {
+    margin: 20px;
+    border: 1px solid #d9dde2;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #d9dde2;
+    text-align: center;
+}
+.first {
+    display: flex;
+}
+.second {
+    display: flex;
+}
+.first div{
+    display: flex;
+}
+.second div {
+    display: flex;
+}
+.block_analys img {
+    margin-top: 14px;
+width: 150px;
+text-align: center;
+
+padding-bottom: 10px;
+}
+.block_analys .name {
+    font-size: 20px;
+}
+
+body a:hover{
+    box-shadow: 0 0 10px 5px #56aaff;
+}
+a:hover {
+    width: 300px;
+    
+}
+.block_tv {
+    margin: 20px;
+    border: 1px solid #d9dde2;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #d9dde2;
+    text-align: center;
+}
+.block_tv img {
+    margin-top: 14px;
+width: 150px;
+text-align: center;
+
+padding-bottom: 10px;
+}
+.block_tv .name {
+    font-size: 20px;
+}
+.block_certificate {
+    margin: 20px;
+    border: 1px solid #d9dde2;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #d9dde2;
+    text-align: center;
+}
+.block_certificate img {
+    margin-top: 14px;
+width: 150px;
+text-align: center;
+padding-bottom: 5px;
+}
+.block_certificate .name {
+    font-size: 20px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-bottom: 20px;
+}
+.block_coding_ur
 
