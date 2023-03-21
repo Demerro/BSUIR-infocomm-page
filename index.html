@@ -11,35 +11,37 @@
 
 <body>
     <div class="themes">
-        <details class="details fr">
-            <summary>
-                <img src="images/leader.webp">
-                <a class="name">Общеспециальные дисциплины</a>
-            </summary>
-            <p class="document_wrap">
-                <iframe class="document"
-                    src="https://docs.google.com/gview?url=https://www.bsuir.by/m/12_100229_1_153399.pdf&embedded=true"
-                    frameborder="0">
-                </iframe>
-            </p>
-        </details>
+        <div class="dropdown" onclick="expandDocument(0)">
+            <div class="dropdown__title">
+                <div class="dropdown__name">
+                    <img class="dropdown_image" src="images/leader.webp">
+                    <a class="name">Общеспециальные дисциплины</a>
+                </div>
+                <img class="chevron" src="images/chevron.svg">
+            </div>
+            <iframe class="document"
+                src="https://docs.google.com/gview?url=https://www.bsuir.by/m/12_100229_1_153399.pdf&embedded=true"
+                frameborder="0">
+            </iframe>
+        </div>
     </div>
     <hr>
     <div class="themes">
-        <details class="details">
-            <summary>
-                <img src="images/diploma.webp">
-                <a class="name">Темы дипломных работ</a>
-            </summary>
-            <p class="document_wrap">
-                <iframe class="document"
-                    src="https://docs.google.com/gview?url=https://www.bsuir.by/m/12_100229_1_146612.pdf&embedded=true"
-                    frameborder="0">
-                </iframe>
-            </p>
-        </details>
+        <div class="dropdown" onclick="expandDocument(1)">
+            <div class="dropdown__title">
+                <div class="dropdown__name">
+                    <img class="dropdown_image" src="images/diploma.webp">
+                    <a class="name">Темы дипломных работ</a>
+                </div>
+                <img class="chevron" src="images/chevron.svg">
+            </div>
+            <iframe class="document"
+                src="https://docs.google.com/gview?url=https://www.bsuir.by/m/12_100229_1_146612.pdf&embedded=true"
+                frameborder="0">
+            </iframe>
+        </div>
     </div>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
