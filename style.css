@@ -1,7 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+}
+
 .specialities {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    width: max-content;
+
 }
 
 .specialities .name {
@@ -16,6 +30,13 @@
     box-shadow: 0px 0px 10px #00000040;
     text-align: center;
     text-decoration: none;
+    height: 330px;
+}
+
+.card_empty {
+    margin: 20px;
+    width: 390px;
+    border-radius: 20px;
     height: 330px;
 }
 
@@ -35,12 +56,20 @@
 }
 
 .card {
-    transition: 1s
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110px;
 }
 
 .card:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px #0F508B;
+    transform: scale(1.04);
+    box-shadow: 0px 0px 10px #377bba;
 }
 
 @media screen and (max-width: 768px) {
@@ -60,10 +89,16 @@
         align-items: center;
     }
 
-    .specialities .card {
+    .specialities .card, .card_empty {
         width: 100%;
         height: 100px;
         margin: 20px 0 0 0;
+    }
+
+    .card_empty {
+        width: 100%;
+        height: 0;
+        margin: 0;
     }
 
     .card a {
@@ -88,7 +123,7 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
-    .specialities .card {
+    .specialities .card, .card_empty {
         width: 320px;
         height: 270px;
     }
@@ -107,15 +142,19 @@
         margin-top: 14px;
     }
 
-    .pad_1 {
+    /* .pad_1 {
         display: flex;
         flex-direction: column;
-    }
+    } */
+
+    /* .specialities {
+        flex-flow: column-reverse;
+    } */
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1440px) {
 
-    .specialities .card {
+    .specialities .card, .card_empty {
         width: 320px;
         height: 270px;
     }
