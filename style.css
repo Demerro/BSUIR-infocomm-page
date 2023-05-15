@@ -319,6 +319,11 @@ hr {
 .dropdown {
     cursor: pointer;
     margin: 5px 0 10px;
+    transition: 0.4s;
+}
+
+.dropdown:hover {
+    transform: scale(1.04);
 }
 
 .dropdown__title,
